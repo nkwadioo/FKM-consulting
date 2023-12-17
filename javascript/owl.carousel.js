@@ -295,6 +295,9 @@
 					this.$stage.children().eq(0).remove();
 					clones.pop();
 				} else {
+					if(!clones.length) {
+						continue
+					}
 					clones.push(clones.length / 2);
 					this.$stage.append(items[clones[clones.length - 1]].clone().addClass('cloned'));
 					clones.push(items.length - 1 - (clones.length - 1) / 2);

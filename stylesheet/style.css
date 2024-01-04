@@ -668,6 +668,7 @@ ul.flat-social li {
 ---------------------------------------------------------------*/
 .header-top {
 	background-color: #fff;
+	padding-bottom: 1rem;
 }
 
 .iconbox.style2 {
@@ -960,7 +961,7 @@ ul.flat-social li {
 
 .header.style1.v1 .flat-header-wrap {
 	position: absolute;
-	top: -30px;
+	top: -15px;
 	left: 0px;
 	width: 100%;
 	max-width: 100%;

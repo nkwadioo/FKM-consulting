@@ -1215,7 +1215,7 @@
 	}
 
 	.header-top {
-		padding-bottom: 30px;
+		padding-bottom: 3rem;
 	}
 
 	.flat-iconbox.style2 .btn-more {
@@ -1574,6 +1574,8 @@
 
 	.tab-services .tab-list-services .tab-item {
 		width: 100%;
+		display: flex;
+		max-height: 100%;
 	}
 
 	.owl-carousel-2 .owl-item {
